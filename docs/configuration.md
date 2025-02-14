@@ -95,7 +95,7 @@ TypeScript (ES Modules):
 ```ts
 // prettier.config.ts, .prettierrc.ts, prettier.config.mts, or .prettierrc.mts
 
-import { type Config } from "prettier";
+import type { Config } from "prettier";
 
 const config: Config = {
   trailingComma: "none",
@@ -109,7 +109,7 @@ TypeScript (CommonJS):
 ```ts
 // prettier.config.ts, .prettierrc.ts, prettier.config.cts, or .prettierrc.cts
 
-import { type Config } from "prettier";
+import type { Config } from "prettier";
 
 const config: Config = {
   trailingComma: "none",
